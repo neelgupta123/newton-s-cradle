@@ -55,7 +55,7 @@ function draw() {
 }
 
 function Force() {
-  if (keyCode === UP_ARROW) {
+  if (keyCode === DOWN_ARROW) {
     Matter.Body.applyForce(bobObject1.body, bobObject1.body.position, {
       x: -1000,
       y: -45,
